@@ -24,5 +24,11 @@ func main(){
 
 	var implicitString = "This is implicityl a string"
 	fmt.Println(implicitString)
+
+	// This will only work inside a function
+	myString := "This is string without var"
+	fmt.Println(myString)
+
+
 	
 }
