@@ -2,6 +2,10 @@ package main
 
 import "fmt"
 
+const aConst int = 32
+
+const implicitConst = 67
+
 func main(){
 	var aString string ="this is Go"
 	fmt.Println(aString)
@@ -29,6 +33,8 @@ func main(){
 	myString := "This is string without var"
 	fmt.Println(myString)
 
+	fmt.Println(aConst)
+	fmt.Println(implicitConst)
 
 	
 }
