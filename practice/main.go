@@ -9,4 +9,14 @@ func main(){
 
 	var anInteger int =43
 	fmt.Println(anInteger)
+
+	var defaultInt int
+	// Prints 0
+	fmt.Println(defaultInt)
+
+	var defaultString string
+	// Prints empty string
+	fmt.Println(defaultString)
+
+	
 }
