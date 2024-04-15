@@ -18,5 +18,11 @@ func main(){
 	// Prints empty string
 	fmt.Println(defaultString)
 
+	var implicitInt int = 52
+	// Prints 52
+	fmt.Println(implicitInt)
+
+	var implicitString = "This is implicityl a string"
+	fmt.Println(implicitString)
 	
 }
