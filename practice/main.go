@@ -82,6 +82,7 @@ func main() {
 	fmt.Println(floatSum)
 
 	//Safely Rounding to keep float precision
+	//Multiply by 100 before rounding and divide by 100 after rounding
 	floatSum = math.Round(floatSum*100) / 100
 	//Prints 163.9
 	fmt.Println("The sum is now: ", floatSum)
