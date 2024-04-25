@@ -1,9 +1,11 @@
 package main
 
 import (
-	"fmt"
 	"bufio"
+	"fmt"
 	"os"
+	"strconv"
+	"strings"
 )
 
 const aConst int = 32
@@ -51,4 +53,19 @@ func main() {
 	//Var _ is a variable we can ignore as it is used to handle error here
 	input, _ := reader.ReadString('\n')
 	fmt.Println("You entered: ", input)
+
+	//Convert input to float type
+	fmt.Print("Enter a number: ")
+
+	//Var err is an error object used to handle error in conversion here
+	numInput, _ := reader.ReadString('\n')
+	fmt.Println("You entered: ", numInput)
+
+	afloat, err := strconv.ParseFloat(strings.TrimSpace(numInput), 64)
+	if err != nil {
+		fmt.Println(err)
+	} else {
+		fmt.Println("Parsed number is: ", afloat)
+	}
+
 }
