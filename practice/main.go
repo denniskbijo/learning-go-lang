@@ -3,6 +3,7 @@ package main
 import (
 	// "bufio"
 	"fmt"
+	"math"
 	// "os"
 	// "strconv"
 	// "strings"
@@ -79,4 +80,9 @@ func main() {
 	floatSum := f1 + f2 + f3
 	//Prints 163.89999999999998
 	fmt.Println(floatSum)
+
+	//Rounding and reseting the floatSum var
+	floatSum = math.Round(floatSum)
+	//Prints 164
+	fmt.Println("The sum is now: ", floatSum)
 }
