@@ -81,8 +81,8 @@ func main() {
 	//Prints 163.89999999999998
 	fmt.Println(floatSum)
 
-	//Rounding and reseting the floatSum var
-	floatSum = math.Round(floatSum)
-	//Prints 164
+	//Safely Rounding to keep float precision
+	floatSum = math.Round(floatSum*100) / 100
+	//Prints 163.9
 	fmt.Println("The sum is now: ", floatSum)
 }
