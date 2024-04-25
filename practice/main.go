@@ -22,7 +22,7 @@ func main(){
 	// Prints empty string
 	fmt.Println(defaultString)
 
-	var implicitInt int = 52
+	var implicitInt = 52
 	// Prints 52
 	fmt.Println(implicitInt)
 
