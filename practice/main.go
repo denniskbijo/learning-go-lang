@@ -68,4 +68,15 @@ func main() {
 	// 	fmt.Println("Parsed number is: ", afloat)
 	// }
 
+	//Math Package
+
+	//Multiple var declaration
+	i1, i2, i3 := 12, 13, 15
+	intSum := i1 + i2 + i3
+	fmt.Println(intSum)
+
+	f1, f2, f3 := 23.5, 64.1, 76.3
+	floatSum := f1 + f2 + f3
+	//Prints 163.89999999999998
+	fmt.Println(floatSum)
 }
