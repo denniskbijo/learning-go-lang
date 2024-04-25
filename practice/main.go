@@ -7,6 +7,9 @@ const aConst int = 32
 const implicitConst = 67
 
 func main(){
+
+	// Practice variables, types and constants printing
+
 	var aString string ="this is Go"
 	fmt.Println(aString)
 	fmt.Printf("the variable type is %T\n", aString)
