@@ -48,6 +48,7 @@ func main() {
 	reader := bufio.NewReader(os.Stdin)
 	fmt.Print("Enter Text: ")
 
+	//Var _ is a variable we can ignore as it is used to handle error here
 	input, _ := reader.ReadString('\n')
 	fmt.Println("You entered: ", input)
 }
